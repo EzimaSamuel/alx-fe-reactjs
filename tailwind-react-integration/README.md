@@ -14,3 +14,4 @@ By the end of this project, I was able to:
         Use Tailwind CSS’s responsive utilities to ensure components display attractively across various screen sizes.
     Add Interactivity and Transitions Using Tailwind CSS
         Enhance React components with hover effects, transitions, and animations to improve user engagement.
+
