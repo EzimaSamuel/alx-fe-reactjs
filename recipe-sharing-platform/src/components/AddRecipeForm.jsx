@@ -6,7 +6,7 @@ const AddRecipeForm = () => {
   const [steps, setSteps] = useState("");
   const [error, setError] = useState("");
 
-  // Validate the form
+  // Validate the form fields
   const validate = () => {
     if (!title || !ingredients || !steps) {
       setError("All fields are required.");
