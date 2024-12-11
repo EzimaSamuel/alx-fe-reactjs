@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Homes from "./components/Homes";
+import Home from "./components/Home";
 import NotFound from "./components/NotFound";
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
     <Router>
       <div>
         <Routes>
-          <Route path="/" element={<Homes />} />
+          <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
